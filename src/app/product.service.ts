@@ -3,6 +3,7 @@ import {Http, Response} from '@angular/http';
 import 'rxjs/add/operator/map';
 import {Album} from './album';
 import {Observable} from 'rxjs/Observable';
+import {Track} from './track';
 @Injectable()
 export class ProductService {
   private _albumUrl = '../assets/album.json';
